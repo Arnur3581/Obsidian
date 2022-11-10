@@ -1,0 +1,15 @@
+.ui__logo {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: rgb(125, 125, 125);
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 600;
+  font-size: 1.2em;
+  filter: drop-shadow(0 0 20px rgb(85, 0, 255));
+}
+.ui__logo img {
+  width: 15%;
+  border-radius: 50%;
+}

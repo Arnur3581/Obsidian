@@ -1,0 +1,115 @@
+body {
+  font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  background-color: rgb(27, 27, 36);
+  overflow-x: hidden;
+}
+
+html {
+  font-size: 16px;
+}
+/* Resets */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul[class],
+ol[class],
+dl[class] {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: rgb(203, 203, 203);
+}
+
+p,
+span {
+  color: rgb(142, 142, 142);
+}
+/* General styles */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  min-width: 80px;
+  padding: 15px;
+  border: none;
+  font-size: 1.25rem;
+  letter-spacing: 1.5px;
+  background: linear-gradient(45deg, rgb(23, 15, 100), rgb(106, 0, 255));
+  border-radius: 30px 5px 30px 5px;
+  transition: all 0.7s;
+}
+.btn:hover {
+  border-radius: 5px 30px 5px 30px;
+  box-shadow: 10px 10px 20px rgb(0, 0, 0);
+}
+.btn img {
+  width: 35px;
+}
+.btn span {
+  color: rgb(219, 219, 219);
+}
+.link {
+  text-decoration: none;
+  color: rgb(125, 125, 125);
+  font-size: 1.25rem;
+  transition: 0.5s;
+}
+.link__arrow {
+  margin-left: 10px;
+  border: solid rgb(125, 125, 125);
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(-45deg);
+  transition: 0.5s;
+}
+.link:hover > .link__arrow {
+  transform: rotate(45deg);
+  border: solid rgb(195, 154, 218);
+  border-width: 0 3px 3px 0;
+}
+.link:hover {
+  filter: drop-shadow(0px 0px 20px rgb(255, 110, 255));
+  color: rgb(195, 154, 218);
+  text-decoration: underline;
+}
+.section__title {
+  text-align: center;
+  font-size: 1.875rem;
+}
+.section__line {
+  margin: 15px 0;
+  width: 100px;
+  margin-bottom: 30px;
+  height: 5px;
+  border-radius: 50px;
+  background-color: rgb(125, 125, 125);
+}
+
+@media screen and (max-width: 650px) {
+  .svg {
+    display: none;
+  }
+}

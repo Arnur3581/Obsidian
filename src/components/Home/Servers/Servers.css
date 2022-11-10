@@ -1,0 +1,88 @@
+.servers__inner {
+  margin-top: 200px;
+  margin-bottom: 30px;
+}
+.servers__popular {
+  width: 100%;
+  min-height: 30vh;
+  padding: 20px;
+  background-color: #111;
+}
+.servers__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.servers__title {
+  margin: 0 auto;
+}
+.servers .section__line {
+  margin: 25px auto;
+}
+.servers__list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+.servers__card {
+  max-width: 250px;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  background-color: #222;
+  display: flex;
+  justify-content: space-between;
+}
+.servers__card-img {
+  border-radius: inherit;
+  width: 30%;
+}
+.servers__card-title {
+  margin-bottom: 10px;
+}
+/* Stats */
+.servers__stats {
+  margin-top: 200px;
+}
+.servers__stats .container {
+  display: flex;
+  justify-content: space-between;
+}
+.servers__stats-title {
+  font-size: 4rem;
+}
+.servers__stats-servers {
+  margin-bottom: 50px;
+}
+.servers__stats-servers h2 {
+  font-size: 2.2rem;
+  letter-spacing: 4px;
+  color: rgb(189, 138, 255);
+}
+.servers__stats-servers span {
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+}
+.servers__stats-img {
+  display: flex;
+  align-items: center;
+}
+.servers__stats-img img {
+  width: 60%;
+  transform: scale(1) perspective(1000px) rotateX(23deg) rotateY(-23deg)
+    rotate(15deg) translateX(5px) translateY(15px);
+  filter: drop-shadow(20px 20px 20px rgb(217, 189, 255));
+}
+.servers__stats .btn {
+  min-width: 150px;
+  padding: 20px;
+  color: rgb(228, 228, 228);
+  letter-spacing: 3px;
+}
+
+@media screen and (max-width: 970px) {
+  .servers__stats-img {
+    display: none;
+  }
+}

@@ -1,0 +1,12 @@
+.ui-nav__item {
+  transition: 0.5s;
+  list-style: none;
+}
+.ui-nav__item:hover {
+  transform: scale(1.2);
+}
+.ui-nav__link {
+  color: rgb(156, 156, 156);
+  letter-spacing: 2.5px;
+  font-weight: 500;
+}

@@ -1,0 +1,80 @@
+.benefits__inner {
+  display: flex;
+  justify-content: space-between;
+}
+.benefits__title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 20%;
+  font-size: 6rem;
+  word-break: break-word;
+  hyphens: manual;
+}
+
+.benefits__title span {
+  color: rgb(142, 142, 142);
+}
+.benefits__line {
+  width: 5px;
+  border-radius: 50px;
+  background-color: rgb(142, 142, 142);
+}
+.benefits__row {
+  width: 60%;
+  display: flex;
+  gap: 4%;
+  flex-wrap: wrap;
+}
+.benefit {
+  min-width: 295px;
+  padding: 25px;
+  margin-bottom: 40px;
+  background-color: rgb(44, 44, 44);
+  border-radius: 10px;
+}
+.benefit:last-child {
+  margin-bottom: 0;
+}
+.benefit > * {
+  margin-bottom: 20px;
+}
+.benefit__card-icon {
+  text-align: center;
+  display: inline-block;
+  font-size: 2rem;
+  border-radius: inherit;
+  padding: 10px;
+  background-color: #222;
+}
+.benefit__card-title {
+  letter-spacing: 2px;
+  text-transform: capitalize;
+}
+.benefit__card-text {
+  letter-spacing: 1px;
+  font-size: 1.125rem;
+}
+@media screen and (max-width: 900px) {
+  .benefits__inner {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .benefits__title {
+    min-width: 300px;
+    display: static;
+    margin: 0 auto;
+    word-break: normal;
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .benefits__row {
+    margin: 0 auto;
+    justify-content: center;
+  }
+  .benefits__line {
+    display: none;
+  }
+}

@@ -1,0 +1,33 @@
+.s-inner {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  font-size: 1.5em;
+  letter-spacing: 3px;
+  text-transform: capitalize;
+}
+.support__svg {
+  position: absolute;
+}
+.s-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.s-title span {
+  font-size: 2em;
+  color: #742eff;
+}
+.s-inner .link {
+  margin-top: 20px;
+  font-size: 1.1em;
+}
+.s-icon {
+  font-size: 10em;
+  padding: 5px;
+}
+@media screen and (max-width: 800px) {
+  .s-icon {
+    display: none;
+  }
+}

@@ -1,0 +1,32 @@
+.footer {
+  background: #c7c7c7;
+}
+.footer * {
+  color: #222;
+}
+.footer .link:hover {
+  color: #111;
+}
+.footer__inner {
+  padding: 20px;
+}
+.footer__row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.footer__column:first-child * {
+  margin-bottom: 10px;
+}
+.footer__column:last-child {
+  display: flex;
+  flex-direction: row;
+  gap: 50%;
+}
+.footer__list {
+  margin-top: 20px;
+  min-width: 150px;
+}
+.footer__list * {
+  margin-bottom: 10px;
+}
