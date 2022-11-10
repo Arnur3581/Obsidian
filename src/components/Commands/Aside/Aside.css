@@ -7,7 +7,9 @@
   width: 20%;
   background-color: rgb(39, 39, 53);
 }
-
+.aside__component .header {
+  display: none;
+}
 .aside__inner {
   height: 100vh;
   display: flex;
@@ -176,6 +178,9 @@
 @media screen and (max-width: 1100px) {
   .aside {
     display: none;
+  }
+  .aside__component .header {
+    display: block;
   }
   .aside__main {
     margin: 0 auto;
